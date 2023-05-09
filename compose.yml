@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tinyproxy:
+    image: kalaksi/tinyproxy:latest
+    ports:
+      - "3128:8888"
+    volumes:
+      - ./tinyproxy.conf:/etc/tinyproxy/tinyproxy.conf:ro
+    restart: always
