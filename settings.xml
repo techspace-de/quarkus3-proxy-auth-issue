@@ -13,4 +13,5 @@
         </proxy>
     </proxies>
 
+    <localRepository>repo</localRepository>
 </settings>
